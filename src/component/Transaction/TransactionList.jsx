@@ -13,7 +13,7 @@ const TransactionList = ()=>{
                 {transactions.map((transaction)=>(
                     <TransactionCard 
                     deleteTransaction={deleteTransaction}
-                    key={transactions.id} 
+                    key={transaction.id} 
                     transaction={transaction}
                     />
                 ))}
